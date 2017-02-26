@@ -1,3 +1,4 @@
+<style>
 body{
   margin:0px;
   padding:0px;
@@ -249,6 +250,7 @@ span,h1, h2, h3, h4, h5, h6 {
 .container .wrap_content .tile:hover{
   background-color: #f8f8f8;
   opacity: 1;
+  cursor: pointer;
 }
 .container .wrap_content .tile:hover h5{
    color: #f15a23;
@@ -260,4 +262,24 @@ span,h1, h2, h3, h4, h5, h6 {
     padding: 5px;
     width:80%;
     margin-left: 20%;
+     opacity: 0.8;
 }
+.container .wrap_content .link_tile {
+     opacity: 0.8;
+}
+.container .wrap_content .link_tile:hover{
+  background-color: #f8f8f8;
+  opacity: 1;
+  cursor: pointer;
+}
+.carousel-inner.item.active .copy
+{
+position: absolute;
+top: 5px;
+left: 10px;
+}
+.copy.center.black a {
+    color: #000;
+    font-size: 26px;
+}
+</style>
