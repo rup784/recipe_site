@@ -173,7 +173,7 @@ nav ul li ul.sub_menu li a {
 .head_text{
   text-align:center;
 }
-.head_content{
+h2.head_content{
    font-size: 24px;
   font-weight:300;
   letter-spacing:-0.1px;
@@ -281,5 +281,15 @@ left: 10px;
 .copy.center.black a {
     color: #000;
     font-size: 26px;
+}
+.container .slogan_content {
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #f3f3f3;
+    padding: 15px;
+    width: 800px;
+}
+.container .slogan_content h2.head_content {
+    padding-bottom: 15px;
 }
 </style>
