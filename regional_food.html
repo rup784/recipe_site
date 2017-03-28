@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
@@ -15,12 +15,31 @@
         width: 70%;
         margin: auto;
     }
+	
+	.button{
+	background-color: #FFA07A;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align:center;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition-duration:0.45;
+	transmition duration:0.45;
+	float:left;
+	}
+	.button1:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	.button2{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+	}
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="head_text">
+        <div class="head_text" id="top">
             <h2 class="head_content">
             Cuisine Collections
         </h2>
@@ -87,11 +106,65 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-  <div id="maharashtrian">
+	
+	
+	<section class="container">
+		<div class="wrap_content">
+			<button class="button button1"><a target="_blank" href="regional_food.html#maharashtrian">Maharashtrian</a></button>
+			<button class="button button1"><a target="_blank" href="regional_food.html#south">South-India</a></button>
+			<button class="button button1"><a target="_blank" href="regional_food.html#north">North-India</a></button>
+			<button class="button button1"><a target="_blank" href="regional_food.html#gujrathi">Gujrathi</a></button>
+			<button class="button button1"><a target="_blank" href="regional_food.html#chinese">Chinese</a></button>
+			<button class="button button1"><a target="_blank" href="regional_food.html#chat">chat</a></button>
+			<button class="button button1"><a target="_blank" href="regional_food.html#sweet">Sweets</a></button>
+		</div>
+	</section>						
+		
+		
+			<div id="maharashtrian">
             <h2 class="head_text head_content">
               Maharashtrian
-            </h2>
+            <hr></h2>
+			<section class="container">
+				<section class="container">
+					<h5><div id="menu">Menu</div><a href="regional_food.html#top">/Cuisine Collections</a><h5>
+				</section>
+			<div class="wrap_content">
+		
+			<div class="tile">
+			
+					<a href="regional_food.html#paavbhaji"><img src="images\paavbhaji.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>PaavBhaji</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#puranpoli"><img src="images\puran-poli.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Puranpoli</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#misal-paav"><img src="images\misal-paav.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Misalisal Paav</h5>
+						</div>
+			</div>
+			<div class="tile">
+						<a href="regional_food.html#Bharlelivangi"><img src="images\Bharleli-vangi_med.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Bharleli Vangi</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#amti"><img src="images\dal_625x350_51464937748.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Amti</h5>
+						</div>
+			</div>
+		</div>
+		</section>
+		
             <div class "recipe_menu">
                 <!-- Mahashrian Recipe1 :paavbhaji -->
                 <div id="paavbhaji">
@@ -136,20 +209,23 @@
                     <p>
                         Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
                         <p>
-                </div>
+						
+						<button class=" button2"><a href="regional_food.html#menu">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
                 <!-- Mahashrian Recipe2 :Purnpoli -->
                 <div id="puranpoli">
                     <h3 class="head_content">
                       Puranpoli RECIPE, HOW TO MAKE Puranpoli STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Purnpoli Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 51-60min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 21-25min
                     </h4>
                     <p>
                         <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
@@ -158,322 +234,1352 @@
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+                        <li class="ingredient">Split Bengal gram (chana dal) 1 1/4 cups</li>
+                        <li class="ingredient">Jaggery (gur) grated 1 1/2 cups</li>
+                        <li class="ingredient">Saffron (kesar) a pinch</li>
+                        <li class="ingredient">Green cardamom powder 1/4 teaspoon</li>
+                        <li class="ingredient">Nutmeg powder a pinch</li>
+                        <li class="ingredient">FOR THE DOUGH</li>
+                        <li class="ingredient">Refined flour (maida) 1 1/2 cups</li>
+                        <li class="ingredient">Salt a pinch</li>
+                        <li class="ingredient">Pure ghee 1/2 cup</li>                        
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make purnpoli:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        Step 1
+
+			Wash and boil chana dal. Drain and coarsely grind it. In a pan add the dal, grated jaggery, saffron, cardamom powder and nutmeg powder and mix well.
+
+			Step 2
+
+			Cook, stirring all the time till dry. It should resemble a soft ball. Remove and cool. Divide the stuffing into sixteen to twenty equal portions and roll into balls.
+
+			Step 3
+
+			Mix maida and salt. Add three tablespoons of ghee and sufficient water to make a soft dough. Cover with a damp cloth and keep aside for one hour.
+
+			Step 4
+
+			Divide dough into sixteen to twenty equal portions and roll into balls. Flatten each ball in your palm, stuff with one portion of puran (stuffing), cover and seal the edges.
+
+			Step 5
+
+			Dust it with flour and roll out into four to five inches diameter disk of medium thickness. Heat a tawa and cook puran poli until done on both sides.
+
+			Step 6
+
+			Remove. Serve hot with generous helping of pure ghee on it and cold milk.
+
                         <p>
-                </div>
-            </div>
-        </div>
+                
+			
+						<button class=" button2"><a href="regional_food.html#menu">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button<hr>
+			</div>
+		
+		<!--Maharashtrian recipe3:MisalPaav-->
+		<div id="misal-paav">
+          <h3 class="head_content">
+            Misal Paav RECIPE, HOW TO MAKE Misal Paav STEP BY STEP
+           </h3>
+		   <p>
+                     <strong>Misal Paav:</strong>A much-loved Maharashtrian curry that is a fiery melange of potatoes, freshly made spice paste and sprouted beans. Goes best with pav, it is usually served at the breakfast table but also makes for a light meal in itself.
+                    </p>
+                    <h4>
+                      PREP TIME: 15min
+                    </h4>
+                    <h4>
+                      COOK TIME: 1Hour
+                    </h4>
+                    <p>
+                        <strong>About:</strong>A much-loved Maharashtrian curry that is a fiery melange of potatoes, freshly made spice paste and sprouted beans. Goes best with pav, it is usually served at the breakfast table but also makes for a light meal in itself.
+                    </p>
+                    <h4>
+                      Ingredients:
+                    </h4>
+                    <ul>
+                        <li class="ingredient">To make paste for gravy/sauce:</li>
+                        <li class="ingredient">1 tsp ginger paste</li>
+                        <li class="ingredient">1 cup chopped onion</li>
+                        <li class="ingredient">1 cup chopped tomato</li>
+                        <li class="ingredient">3/4 cup grated coconut</li>
+                        <li class="ingredient">To make gravy/sauce (Kat in Marathi)</li>
+                        <li class="ingredient">3 Tbsp oil</li>
+                        <li class="ingredient">Spice Paste (as above)</li>
+                        <li class="ingredient">Salt to taste</li>
+                        <li class="ingredient">1 tsp red chilly paste</li>
+                        <li class="ingredient">1 tsp garam masala</li>
+                        <li class="ingredient">1/2 tsp turmeric powder</li>
+                        <li class="ingredient">1 tsp cumin-coriander powder</li>
+                        <li class="ingredient">1/2 tsp cinnamon & clove powder</li>
+                        <li class="ingredient">3 cups water (or as required to adjust the consistency)</li>
+						<li class="ingredient">To make usal:</li>
+						<li class="ingredient">3 Tbsp oil</li>
+						<li class="ingredient">1 tsp garlic paste</li>
+						<li class="ingredient">1 tsp ginger paste</li>
+						<li class="ingredient">1/2 tsp hing (asafoetida)</li>
+						<li class="ingredient">1 1/2 cups steamed matki (moth) soaked overnight</li>
+						<li class="ingredient">1 cup boiled potato (cut into square pieces)</li>
+						<li class="ingredient">1/2 tsp turmeric powder</li>
+						<li class="ingredient">1 tsp garam masala</li>
+						<li class="ingredient">1/2 tsp cinnamon-clove powder</li>
+						<li class="ingredient">1 lime juice</li>
+						<li class="ingredient">3 cups water (or as required)</li>
+						<li class="ingredient">Salt to taste</li>
+						<li class="ingredient">For Garnishing:</li>
+						<li class="ingredient">Chopped onion</li>
+						<li class="ingredient">Mix dry farsan</li>
+						<li class="ingredient">Chopped coriander</li>
+                    </ul>
+                    <h4>
+                        Steps to make Misal Paav:
+                    </h4>
+                    <p>
+                    To make paste : Heat oil in a pan.  Add ginger paste, garlic paste and chopped onion.  Saute till the onion is transculent.  Then add chopped tomatoes and grated coconut.  Mix well and saute it for few minutes.  Allow the mixture to cool.  Grind it into smooth paste.  To make gravy/sauce ('Kat' in Marathi): Heat oil in a pan.  Add the ready paste into oil and saute it for 2 minutes.  Then add salt, red chilly powder, garam masala, turmeric powder, cumin-coriander powder, clove-cinnamon powder and mix it.  Then add water in it.  Cook till the mixture starts leaving oil.  Transfer it in a bowl and keep it aside.  To make Usal: Heat oil in a pan.  Add ginger paste, garlic paste and asafoetida.  Saute it for a minute.  Then add soaked & boiled sprouts and potatoes. Mix it.  Then add salt, turmeric powder, garam masala, clove-cinnamon powder and lime juice.  Add water to it.  Cook it for 8-10 minutes.  Transfer it in a separate bowl.  To make Misal: Take a serving bowl.  First pour ready usal in the bowl.  Then pour the red gravy over it.  Thereafter, add finely chopped onion, farsan to the mixture.  Garnish it with chopped coriander. Serve it with pav and a slice of lemon  Notes:  You may also take mix sprouts to make usal 
+                        <p>
+						<button class=" button2"><a href="regional_food.html#menu">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button>
+                <hr></div>
+			<!-- Mahashrian Recipe1 :Bharli vangi -->
+			<div id="Bharlelivangi">
+                 <h3 class="head_content">
+                      Bharli Vangi RECIPE, HOW TO MAKE Bharli vangi STEP BY STEP
+                    </h3>
+                    <p>
+                        <strong>Bharli Vangi Recipe:</strong>Bharleli vangi means stuffed aubergines. Cook baingan the Maharashtrian way with a sweet and tangy taste.
+                    </p>
+                    <h4>
+                      PREP TIME: 10-15min
+                    </h4>
+                    <h4>
+                      COOK TIME: 25min
+                    </h4>
+					<p>
+                        <strong>About:</strong>Bharleli vangi means stuffed aubergines. Cook baingan the Maharashtrian way with a sweet and tangy taste.
+						</p>
+					<h4>
+                      Ingredients:
+                    </h4>
+                    <ul>
+                        <li class="ingredient">6 pieces small sized aubergines</li>
+						<li class="ingredient">6 tsp desiccated coconut</li>
+						<li class="ingredient">4 tsp roasted peanuts (crushed)</li>
+						<li class="ingredient">1 tsp red chilli powder</li>
+						<li class="ingredient">1 1/2 tsp goda masala</li>
+						<li class="ingredient">Salt to taste</li>
+						<li class="ingredient">4 tsp refined oil</li>
+						<li class="ingredient">1/2 tsp cumin seeds</li>
+						<li class="ingredient">1/2 tsp mustard seeds</li>
+						<li class="ingredient">2 tsp tamarind extract</li>
+						<li class="ingredient">2 tsp jaggery water</li>
+						<li class="ingredient">1/2 tsp coriander leaves</li>
+					</ul>
+					<h4>
+                        Steps to make Bharli Vangi:
+                    </h4>
+                    <p>Prepare the `stuffing' masala by mixing together coconut, peanut powder, red chilli powder, goda masala and salt.  Slice the aubergines into four leaving them attached only at the stem.  Insert the `stuffing' masala in it.  Heat oil in pan. Add cumin and mustard seeds.  Place the stuffed aubergines in it. Pour water and cover for 10-12 minutes.  Now add tamarind and jaggery water. Add salt to taste.  Garnish with coriander leaves and grated coconut.  Serve with rotis. 
+					<p>
+					<button class=" button2"><a href="regional_food.html#menu">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button>
+					<hr></div>
+					
+				<!-- Maharashtrian Recipe5 :Amti-->
+					<div id="amti">
+						<h3 class="head_content">
+						  Amti RECIPE, HOW To MAKE Amti STEP BY STEP
+						</h3>
+						<p>
+							<strong>Amti Recipe:</strong>An appetizing Maharashtrian style dal made with yellow gram dal. Tempered with chillies, garam masala, curry leaves and mustard seeds.
+						</p>
+						<h4>
+							PREP TIME: 5min
+						</h4>
+						<h4>
+							COOK TIME: 30Min
+						</h4>
+						<p>
+							<strong>About:</strong>An appetizing Maharashtrian style dal made with yellow gram dal. Tempered with chillies, garam masala, curry leaves and mustard seeds.
+						</p>
+						<h4>
+							Ingredients:
+						</h4>
+						<ul>
+							<li class="ingredient">1/2 cup yellow gram dal</li>
+							<li class="ingredient">1 stalk curry leaves</li>
+							<li class="ingredient">1 bay leaf</li>
+							<li class="ingredient">3 cloves</li>
+							<li class="ingredient">2 green chillies</li>
+							<li class="ingredient">1/2 Tbsp coriander finely chopped</li>
+							<li class="ingredient">1 tsp black maharashtrian masala (use paav bhaji masala or goda masala)</li>
+							<li class="ingredient">1/4 tsp garam masala</li>
+							<li class="ingredient">1/4 tsp coriander seed</li>
+							<li class="ingredient">Turmeric powder</li>
+							<li class="ingredient">Salt to taste</li>
+							<li class="ingredient">6-7 kokams soaked in 1/2 cup water</li>
+							<li class="ingredient">4 cups water</li>
+							<li class="ingredient">1 Tbsp oil or ghee</li>
+							<li class="ingredient">1/2 tsp each cumin & mustard seeds</li>
+						</ul>
+						<h4>
+							Step TO Make Amti:
+						</h4>
+						<p>Wash and soak daal for 15 minutes. Then pressure cook it till very soft (4 whistles).  Cool cooker and remove drain water from daal and save.  Knead the kokams between fingers. Then press out and remove.  Keep the water aside.  Then grind daal to a fine paste either on stone or in a mixie.  Mix with water and residual water of daal.  Blend well till smooth.  Heat oil in a deep saucepan.  Add seeds, curry leaves, allow to splutter.  Add slit chillies, cloves, bay leaf, and saute for one minute.  Add kokam water. Make paste of masalas in 1/4 cup water.  Add paste, fry further for one minute. Add daal, bring to a boil and simmer for 8-10 minutes.  Garnish with chopped coriander and serve hot.
+						<p>
+						<button class=" button2"><a href="regional_food.html#menu">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button>
+				<hr></div>
+			</div>
+		</div>
         <div id="north">
             <h2 class="head_text head_content">
               North-Indian
             </h2>
+			<section class="container">
+				<section class="container">
+					<h5><div id="menu2">Menu</div><h5>
+				</section>
+			<div class="wrap_content">
+			<div class="tile">
+					<a href="regional_food.html#sag"><img src="images\saag new.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Sarson Ka Saag Aur Makki Ki Roti</h5>
+						</div>
+			</div>
+		
+			<div class="tile">
+			
+					<a href="regional_food.html#biryani"><img src="images\biryani_625x350_41435301708.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Biryani</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#chicken"><img src="images\butterchicken-620.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Butter chicken</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#chhole"><img src="images\chole-bhature-new.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>chole-bhature</h5>
+						</div>
+			</div>
+			<div class="tile">
+						<a href="regional_food.html#josh"><img src="images\roganjosh_625x350_81430903997.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Roganjosh</h5>
+						</div>
+			</div>
+			
+		</div>
+		</section>
             <div class "recipe_menu">
-                <!-- Mahashrian Recipe1 :paavbhaji -->
-                <div id="paper_dosa">
+			<!-- North-India Recipe1 :sag -->
+                <div id="sag">
                     <h3 class="head_content">
-                      Paper Dosa RECIPE, HOW TO MAKE Paper Dosa STEP BY STEP
+                      Sarson Ka Saag Aur Makki Ki Roti RECIPE, Sarson Ka Saag Aur Makki Ki Roti HOW TO MAKE STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Sarson Ka Saag Aur Makki Ki Roti Recipe:</strong>The classic Punjabi dish: Sarsoon da saag te makki di roti. Best had with some white butter and jaggery or honey. 
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 10min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 2hrs
+                    </h4>
+                    
+                    <h4>
+                      Ingredients:
+                    </h4>
+                    <ul>
+                        <li class="ingredient">750 gm sarson saag</li>
+						<li class="ingredient">250 gm palak saag</li>
+						<li class="ingredient">250 gm bathua saag</li>
+						<li class="ingredient">2 cups water salt pinch</li>
+						<li class="ingredient">1 1/2 cup makki atta</li>
+						<li class="ingredient">4 green chilly</li>
+						<li class="ingredient">25 gm ginger</li>
+						<li class="ingredient">2 onions</li>
+						<li class="ingredient">6 cloves of garlic</li>
+						<li class="ingredient">100 gm ghee</li>
+						<li class="ingredient">1/2 tsp red pepper powder</li>
+						<li class="ingredient">1/2 tsp garam masala</li>
+						<li class="ingredient">1/2 tsp coriander powder</li>
+
+						<li class="ingredient">Makki ki roti</li>
+						<li class="ingredient">1/2 kg makki atta</li>
+						<li class="ingredient">Water for kneading</li>
+						<li class="ingredient">Ghee for frying</li>
+                        
+                    </ul>
+                    <h4>
+                        Steps to make Sarson Ka Saag Aur Makki Ki Roti:
                     </h4>
                     <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
+                        For the saag:  Add the three saags, salt and water into pressure cooker & cook over low heat for 1 1/2 hours.  Squeeze out saag and keep saag water aside. Mash saag in the cooker until coarsely ground, and add makki atta and stir.  Put back saag water and a little fresh water & boil over slow fire.  Add green chillies & ginger & cook till saag gets thick.  For tadka, add chopped onions, ginger, garlic, red pepper powder; garam masala, dhania & saute until onions are light brown.  Mix into saag & garnish with julienne of ginger fried in ghee.
+						For makki ki roti:  Knead the makki atta until it becomes a ball, add atta to dry it & knead.  Heat the tava and add a little ghee so that it does not stick.  Make round shapes of makki roti on chakla & carefully transfer to the tava.  Cook with ghee till golden brown.  Serve with hot sarson da saag and gur and white butter.
+                        <p>
+                
+						<button class=" button2"><a href="regional_food.html#menu2">Menu</a></button>
+				</div>		<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+            
+                <!-- North-Indian Recipe1 :Chicken Dum Biryani -->
+                <div id="biryani">
+                    <h3 class="head_content">
+                     Chicken Dum Biryani  RECIPE, HOW TO MAKE Chicken Dum Biryani STEP BY STEP
+                    </h3>
+                    <p>
+                        <strong>Chicken Dum Biryani Recipe:</strong>A sumptuous chicken biryani that is cooked with such precision that you are bound to make this dish again and again to relish the delicate flavours. 
+                    </p>
+                    <h4>
+                      PREP TIME: 10min
+                    </h4>
+                    <h4>
+                      COOK TIME: 1hr 15min
+                    </h4>
+                    <p>
+                        <strong>About:</strong>A sumptuous chicken biryani that is cooked with such precision that you are bound to make this dish again and again to relish the delicate flavours.  
                     </p>
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+						<li class="ingredient">500 gm rice (long grain, basmati rice)</li>
+						<li class="ingredient">6 (400 gm) chicken thighs (boneless)</li>
+						<li class="ingredient">For theMarinade:</li>
+						<li class="ingredient">1 tsp white pepper</li>
+						<li class="ingredient">A pinch of salt</li> 
+						<li class="ingredient">Juice of 1/2 lemon</li>
+						<li class="ingredient">For the Masala:</li>
+						<li class="ingredient">1/2 Tbsp desi ghee</li>
+						<li class="ingredient">4-5 cardamoms</li>
+						<li class="ingredient">1 bay leaf</li>
+						<li class="ingredient">A small piece of cinnamon</li>
+						<li class="ingredient">2-3 cloves</li>
+						<li class="ingredient">2 tsp garlic paste</li>
+						<li class="ingredient">1 tsp ginger paste</li>
+						<li class="ingredient">1 cup onion, sliced</li>
+						<li class="ingredient">1 cup yoghurt</li>
+						<li class="ingredient">1 tsp yellow chilli powder</li>
+						<li class="ingredient">2 tsp fennel or saunf powder</li>
+						<li class="ingredient">Salt to taste</li>
+						<li class="ingredient">2 cups water</li>
+						<li class="ingredient">For the Finishing spices:</li>
+						<li class="ingredient">1 tsp green cardamom powder</li>
+						<li class="ingredient">1/2 tsp fennel powder</li>
+						<li class="ingredient">1/2 cup cream</li>
+						<li class="ingredient">For the rice:</li>
+						<li class="ingredient">3 tsp rose water</li>
+						<li class="ingredient">Salt</li>
+						<li class="ingredient">Ginger, juliennes</li>
+						<li class="ingredient">2 green chillies, sliced</li>
+   
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Chicken Dum Biryani:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+							1.For the Jhol:
+							2.Scrub and wash the rice and soak it in water for about 15-20 minutes.
+							3.Cut the chicken into even-sized pieces.
+							4.In a bowl, add all the marinade ingredients and coat the chicken pieces well with it. Let it marinate for a while. (15 minutes)
+							5.In the meanwhile, heat some ghee in a pan and add all the whole spices for the masala along with ginger-garlic paste. When the spices turn slightly brown, add the onions.
+							6.Cook the onions partially on slow heat to ensure that they do not change their colour. If you think the heat is getting too high to handle, put in a little bit of water.
+							7.Once the onions are nice, glossy, well cooked and on the verge of changing colour, add the yoghurt.
+							8.Add the yellow chilli powder and cook on low heat for 1 minute. 
+							9.Now add the chicken, followed by saunf powder and salt. Mix well.
+							10.Add some water and let it cook for 10-12 minutes (till the chicken is partially cooked). Once done, remove from heat and let it cool. Pick out the pieces of chicken and strain the gravy over them.
+							11.Add the finishing spices to the 'jhol' (the chicken and liquid), then add the cream to it. This is the jhol or the infusion in which the rice will be cooked. Keep this aside.
+							12.For the rice:
+							13.In a pan, heat some water. Add salt and rose water to it.
+							14.As soon as it comes to a boil, add the rice. Cook it partially and keep aside.
+							15.In another pan, heat half of the jhol you made earlier with all the chicken pieces. Once this comes to a boil, add half of the rice to it.
+							16.Check seasoning before adding rice after which you would not be able to adjust it.
+							17.Add the rice to the jhol and sprinkle some ginger juliennes and sliced green chillies.
+							18.Now add the other half of the rice and jhol. Let it cook on a low heat (on dum, in it's own heat) covered with foil for about 10 minutes (till the water evaporates and chicken and rice are fully cooked).
+							19.Drizzle with some rose water and serve hot. 
                         <p>
-                </div>
+						<button class=" button2"><a href="regional_food.html#menu2">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button>
+                <hr></div>
                 <!-- Mahashrian Recipe2 :Purnpoli -->
-                <div id="idli">
+                <div id="chicken">
                     <h3 class="head_content">
-                      Idli RECIPE, HOW TO MAKE idli STEP BY STEP
+                      Butter Chicken Recipe, HOW TO MAKE Butter Chicken	STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Butter Chicken Recipe:</strong>Straight from a Punjabi kitchen, butter chicken has been an instant hit through the years. Marinated overnight, the chicken is roasted and cooked in tomato puree, cream and masalas. 
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 10min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 30min + Marination time (overnight)
                     </h4>
                     <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
+                        <strong>About:</strong> Straight from a Punjabi kitchen, butter chicken has been an instant hit through the years. Marinated overnight, the chicken is roasted and cooked in tomato puree, cream and masalas.
                     </p>
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
-                    </ul>
+						<li class="ingredient">700 gm raw chicken</li> 
+						<li class="ingredient">For theMarinade:</li>
+						<li class="ingredient">1 tsp red chilli powder</li> 
+						<li class="ingredient">1 tsp ginger and garlic paste</li> 
+						<li class="ingredient">Salt to taste</li> 
+						<li class="ingredient">1/2 kg curd </li>
+
+						<li class="ingredient">For theGravy:</li>
+						<li class="ingredient">175 gm white butter</li> 
+						<li class="ingredient">1/2 tsp black cumin seeds</li> 
+						<li class="ingredient">1/2 kg tomato, pureed </li>
+						<li class="ingredient">1/2 tsp sugar </li>
+						<li class="ingredient">1 tsp red chilli powder</li> 
+						<li class="ingredient">Salt to taste</li> 
+						<li class="ingredient">100 gm fresh cream</li> 
+						<li class="ingredient">4 green chillies, sliced</li>
+						<li class="ingredient">1/2 tsp fenugreek leaves, crushed </li>   
+					</ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Butter Chicken:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        1.For marinating the chicken
+						2.In a mixing bowl, mix red chilli powder, ginger garlic paste, salt and curd. 
+						3.Add the raw chicken pieces to the marinade and mix well. Keep it in the refrigerator overnight or minimum 6 hours. 
+						4.Roast the marinated chicken in a tandoor or an 4.Roast the marinated chicken in a tandoor or an oven for about 10-12 minutes until it is three-fourth done. 
+						5.
+						For the chicken gravy
+						6.Heat half the quantity of white butter in pan. 
+						7.Pour in the tomato puree, and saute for 2-3 minutes. Add cumin seeds, sugar, red chilli powder and salt. Mix well. 
+						8.Add the prepared chicken, white butter, fresh cream, sliced green chillies and crushed fenugreek leaves. Saute for 3-4 minutes and let the chicken cook.
+						9.Cook till chicken is done. Serve hot with rice or naan.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu2">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
+				<div id="bhalla">
+					<h3 class="head_content">
+					Dahi Bhalla RECIPE, HOW TO MAKE Dahi Bhalla STEP BY STEP
+					</h3>
+					<p>
+						<strong>Dahi Bhalla Recipe:</strong>
+					</p>
+					<h4>
+						PREP TIME: 10min
+					</h4>
+					<h4>
+						COOK TIME: 1hr + Time to soak lentils
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">For the bhallas:
+						<li class="ingredient">400 gm moong dal
+						<li class="ingredient">1 cup urad dal
+						<li class="ingredient">2 tsp zeera
+						<li class="ingredient">1 tsp chironji
+						<li class="ingredient">Oil, for deep frying
+
+						<li class="ingredient">For the khatti chutney:
+						<li class="ingredient">1 cup coriander leaves
+						<li class="ingredient">1/4 cup pudina leaves
+						<li class="ingredient">1 green chilli
+						<li class="ingredient">20 gm ginger
+						<li class="ingredient">1/2 tsp black rock salt
+						<li class="ingredient">Salt, to taste
+						<li class="ingredient">1/2 tsp garam masala (With black cardamom, mace, nutmeg, zeera, laung)
+						<li class="ingredient">Juice of 1 lemon
+
+						<li class="ingredient">For the meethi chutney:
+						<li class="ingredient">200 gm tamarind pulp soaked in 1 1/2 cup water
+						<li class="ingredient">800 gm sugar
+						<li class="ingredient">3 tsp kachri powder
+						<li class="ingredient">1/2 tsp saunth powder
+						<li class="ingredient">1 tsp degi mirch
+						<li class="ingredient">Salt, to taste
+						<li class="ingredient">1/2 tsp black rock salt
+						<li class="ingredient">1/2 tsp garam masala (With black cardamom, mace, nutmeg, zeera, laung)
+
+						<li class="ingredient">For the dahi:
+						<li class="ingredient">3 cups yogurt
+						<li class="ingredient">2 Tbsp powdered sugar
+
+						<li class="ingredient">For the chaat masala:
+						<li class="ingredient">2 tsp peeli mirch
+						<li class="ingredient">1 tsp kali mirch
+						<li class="ingredient">2 tsp zeera powder
+						<li class="ingredient">2 tsp garam masala
+
+						<li class="ingredient">For garnishing:
+						<li class="ingredient">Pomegranate
+						<li class="ingredient">Sev
+					</ul>
+					<h4>
+						Step to Make Dahi Bhalla:
+					</h4>
+					<p>
+						1.For the bhallas:
+						2.Soak moong dal and urad dal for 2 hours.
+						3.In a food processor grind them nicely.
+						4.Whisk the dal together till it becomes light and fluffy. Add zeera and chironji. The batter is ready.
+						With wet palms add small portions of batter into hot oil. Deep fry the bhallas till golden brown.
+						6.
+						For the khatti chutney:
+						7.In a blender mix together coriander, mint, green chilli, ginger, black salt and salt.
+						8.Add garam masala and lemon juice. Mix.
+						9.Your khatti chutney is ready.
+						10.
+						For the meethi chutney:
+						11.Soak the tamarind pulp in water for 25-30 minutes. Squeeze it with your hand to extract all the pulp. Strain and thrown away the residue in the strainer.
+						12.Add the tamarind water in a saucepan and add sugar. Cook on low heat till the sugar dissolves. Let it cool.
+						13.Once it cools down add kachri powder, saunth powder, degi mirch, salt, black salt and garam masala.
+						14.Your meethi chutney is ready.
+						15.
+						For the dahi:
+						16.Whisk yogurt with some powdered sugar. Keep it in the fridge to cool.
+						17.
+						For the chaat masala:
+						18.Mix all the ingredients together.
+						19.
+						Plating up:
+						 
+						20.In a plate place bhallas. Break them a little from the middle. 
+						21.Add sweetened curd, khatti chutney, meethi chutney.
+						22.Garnish with pomegrante and sev.
+						23.Sprinkle some chaat masala.
+						24.Serve.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu2">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="chhole">
+					<h3 class="head_content">
+					Chole Bhature RECIPE, HOW TO MAKE Chole Bhature STEP BY STEP
+					</h3>
+					<p>
+						<strong>Chole Bhature</strong>Straight from a Punjabi kitchen - garma garam, chole bhature! Learn the art of making feather soft bhaturas served with chickpeas cooked in a pool of rustic spices.
+					</p>
+					<h4>
+						PREP TIME: 10min
+					</h4>
+					<h4>
+						COOK TIME: 1hr
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						    <li class="ingredient">For chole:</li>
+							<li class="ingredient">2 cup chickpeas (channas)</li>
+							<li class="ingredient">2 tsp oil</li>
+							<li class="ingredient">1 bay leaf (tej patta)</li>
+							<li class="ingredient">1 stick cinnamon (dalchini)</li>
+							<li class="ingredient">3-4 cloves (laung)</li>
+							<li class="ingredient">1 tsp whole pepper corns (sabut kali mirch)</li>
+							<li class="ingredient">3 green cardamom  (choti elaichi)</li>
+							<li class="ingredient">2 black cardamom (badi elaichi)</li>
+							<li class="ingredient">1 tsp turmeric powder (haldi)</li>
+							<li class="ingredient">1 tsp chili powder (lal mirch powder)</li>
+							<li class="ingredient">1 tsp coriander powder (dhaniya powder)</li>
+							<li class="ingredient">1 tsp cumin powder (zeera powder)</li>
+							<li class="ingredient">1 tsp cumin seeds (zeera)</li>
+							<li class="ingredient">1/2 tsp asafoetida (heeng)</li>
+							<li class="ingredient">Salt to taste</li>
+							<li class="ingredient">1 cup onions (chopped)</li>
+							<li class="ingredient">1 cup tomatoes (chopped)</li>
+							<li class="ingredient">1 tsp ginger (chopped)</li>
+							<li class="ingredient">1 tsp garlic (chopped)</li>
+							<li class="ingredient">1 tsp ajwain</li>
+							<li class="ingredient">1 tsp lime juice</li>
+							<li class="ingredient">1 green chili (chopped)</li>   
+											   
+							<li class="ingredient">1 tea bag</li>
+																			
+							<li class="ingredient">1 Tbsp butter</li>
+
+							<li class="ingredient">For the bhaturas:</li>
+							<li class="ingredient">2 cups maida (refined flour)</li>
+							<li class="ingredient">1/2 tsp yeast, dissolved for 10 minutes in luke warm water</li>
+							<li class="ingredient">1/2 cup whole wheat flour</li>
+							<li class="ingredient">A pinch of salt</li>
+							<li class="ingredient">Water to knead</li>
+							<li class="ingredient">Oil for frying</li>
+					</ul>
+					<h4>
+						Step to Make Chole Bhature:
+					</h4>
+					<p>
+						1.For chole:
+						2.In a pan add oil, bay leaf, cinnamon, cumin seeds, cloves, whole pepper corns, green and black cardamom.
+						3.After it gets brown add chopped onions and saute it.
+						4.After sauteing add chopped ginger and garlic
+						5.Then add turmeric, chili powder, coriander powder, cumin powder, asafoetida, salt and fry well.
+						6.For de glazing the pan add little water.
+						7.Now add the chole (soaked overnight and pressure cooked) to the masala.
+						8.After stirring well add tomatoes, little sugar and salt to the chole (chickpeas)
+						9.Now add ajwain, chopped green chilies and water for the base.
+						10.To get the color in the chole, add a tea bag to the masala.
+						11.Simmer the chole gently for an hour and cover it.
+						12.Add lime juice and a dollop of butter to it.
+						13.Garnish the chole with coriander and butter.
+						14.Serve the chole hot with bhaturas.
+						15.
+						For the bhaturas:
+						16.Knead the whole wheat flour, maida and salt together with adequate amount of water.
+						17.Sprinkle the yeast on top. Leave it for 2-3 hours for the yeast to work.
+						18.Divide it into equal portions. Roll out in an oval or round shape.
+						19.Deep fry till golden brown, like a puri.
+						20.Serve. 
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu2">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="josh">
+					<h3 class="head_content">
+					Rogan Josh RECIPE, HOW TO MAKE Rogan Josh STEP BY STEP
+					</h3>
+					<p>
+						<strong>Rogan Josh</strong>
+					</p>
+					<h4>
+						PREP TIME: 10min
+					</h4>
+					<h4>
+						COOK TIME: 1hr 30min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">1 kg meat-cut into pieces</li>
+						<li class="ingredient">5 cups water</li>
+						<li class="ingredient">2 1/4 tsp salt</li>
+						<li class="ingredient">1 Tbsp ground garlic</li>
+						<li class="ingredient">1 cup pure ghee</li>
+						<li class="ingredient">4 cloves</li>
+						<li class="ingredient">8 green cardamoms</li>
+						<li class="ingredient">5 tsp turmeric powder</li>
+						<li class="ingredient">2 Tbsp onion paste-fried</li>
+						<li class="ingredient">4 tsp Kashmiri red chilli powder-dissolved in a cup of water</li>
+						<li class="ingredient">1/2 tsp saffron-ground and added to 2 tbsp warm water</li>
+						<li class="ingredient">1 cup dry cockscomb (mawal) flowers-heated with a cup of water</li>
+						<li class="ingredient">1/4 tsp black pepper powder</li>
+					</ul>
+					<h4>
+						Step to Make Rogan Josh:
+					</h4>
+					<p>
+						1.Boil the meat in the water; remove the scum with a ladle until the water is clear.
+						2.Add the salt and the garlic. Boil until the meat is half done.
+						3.Remove from heat and take out the pieces of the meat. Wash them in a pan of cold water. Keep the meat aside. Then strain the water through a fine sieve and collect it in another pan.
+						4.Return this pan to the heat and bring the water to a boil and add the meat. Meanwhile, heat the ghee in a pan; add the cloves, and saute until they crackle.
+						5.Remove from heat and sprinkle a tbsp of water and cover.
+						6.To the boiling water, add the green cardamoms, turmeric powder, clove-flavored ghee and the onion paste. Boil for another 10 minutes.
+						7.Stir in the red chilli water. Reduce heat and cook covered until the meat is tender.
+						8.Add the cockscomb flower extract, saffron water and black pepper powder.
+						9.Mix well and bring rapidly to a boil.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu2">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				
             </div>
+			
         </div>
         <div id="south">
             <h2 class="head_text head_content">
               South-Indian
             </h2>
+			<section class="container">
+				<section class="container">
+					<h5><div id="menu3">Menu</div><h5>
+				</section>
+			<div class="wrap_content">
+		
+			<div class="tile">
+			
+					<a href="regional_food.html#medu"><img src="images\download.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Medu Vada</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#coconut"><img src="images\coconut-chutney-13.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Coconut Chatani</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#dosa"><img src="images\dosa new.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Masala Dosa</h5>
+						</div>
+			</div>
+			<div class="tile">
+						<a href="regional_food.html#rasam"><img src="images\rasam (1).jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Rasam</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#upp"><img src="images\Uttapam-620.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Uttapam</h5>
+						</div>
+			</div>
+		</div>
+		</section>
             <div class "recipe_menu">
-                <!-- Mahashrian Recipe1 :paavbhaji -->
-                <div id="aappe">
+                <!-- South-India Recipe1 :Medu Vada -->
+                <div id="medu">
                     <h3 class="head_content">
-                      aappe RECIPE, HOW TO MAKE aape STEP BY STEP
+                      Medu Vada RECIPE, HOW TO MAKE medu Vada STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Medu Vada Recipe:</strong> 
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 1hr
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 30min
                     </h4>
-                    <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
-                    </p>
+                    
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
-                    </ul>
+                        <li class="ingredient">1 cups of urad dal or uddina bele</li>
+                        <li class="ingredient">¼ cup of channa dal or kadle bele</li>
+                        <li class="ingredient">3 tbsp of rice flour</li>
+                        <li class="ingredient">2-3 green chillies</li>
+                        <li class="ingredient">2-3 tbsp of dry chopped coconut</li>
+                        <li class="ingredient">curry leaves</li>
+                        <li class="ingredient">chopped coriander leaves</li>
+                        <li class="ingredient">1 inch ginger (finely chopped)</li>
+                        <li class="ingredient">pinch of hing</li>
+                        <li class="ingredient">salt to taste</li>
+                        <li class="ingredient">oil to fry</li>
+                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Medu Vada:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        wash and soak dal in about 3 cups of water for about 2-3 hours.
+						drain all the water from soaked dal. grind urad dal and channa dal together to smooth paste using very little water. i have used authentic grinding stone, but wet grinder or even mixer grinder can be used.
+						the batter should be thick and use very little water. the right consistency is very important or otherwise, you will not be able to get the vada shape.
+						add coriander, green chilli, ginger and chopped dry coconut to the batter. mix it very well.
+						add 2-3 tsp of rice flour. rice flour is added to make it crispy.
+						add pinch of hing to make it more digestible.
+						heat the oil in a frying pan in medium flame. wet your palms and take a lemon size batter.
+						make hole in the center and slide it into the hot oil.
+						the vada should float on top of oil.
+						make sure your oil is not too hot. otherwise the vadas would not cook evenly.
+						fry on both sides till it becomes golden brown in colour.
+						serve medu vada immediately with chutney collections or sambar collections.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu3">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
-                <!-- Mahashrian Recipe2 :Purnpoli -->
-                <div id="lemon_rice">
+                <!-- South-India Recipe2 :Purnpoli -->
+                <div id="coconut">
                     <h3 class="head_content">
-                      lemon rice RECIPE, HOW TO MAKE lemon rice STEP BY STEP
+                      Coconut Chutney RECIPE, HOW TO MAKE Coconut ChutneySTEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Coconut Chutney Recipe:</strong> 
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 10min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 15min
                     </h4>
-                    <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
-                    </p>
+                    
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+                        <li class="ingredient">1 cup grated coconut</li>
+                        <li class="ingredient">2 small green chillies , chopped</li>
+                        <li class="ingredient">1 tsp grated ginger (adrak)</li>
+                        <li class="ingredient">1 tbsp roasted chana dal (daria)</li>
+                        <li class="ingredient">salt to taste</li>
+                        <li class="ingredient">For The Tempering</li>
+                        <li class="ingredient">1/2 tsp mustard seeds ( rai / sarson)</li>
+                        <li class="ingredient">1 red chilli , broken into pieces</li>
+                        <li class="ingredient">2 to 3 curry leaves (kadi patta)</li>
+                        <li class="ingredient">1 tsp oil</li>
+                        
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Coconut Chutney:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        Put the coconut, green chillies, ginger, roasted split gram and salt in a blender with a little water and grind to make a fine paste. Keep aside.
+						Prepare the tempering by heating the oil and adding the mustard seeds, red chilli and curry leaves and stirring till the mustard seeds crackle. Pour this tempering over the chutney and mix well.
+						Refrigerate and use as required.
                         <p>
-                </div>
-            </div>
+               
+						<button class=" button2"><a href="regional_food.html#menu3">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+			
+			<!--South-India Recipe3:Masala Dosa-->
+			<div id="dosa">
+				<h3 class="head_content">
+				Masala Dosa RECIPE, HOW TO MAKE Masala Dosa STEP BY STEP
+				</h3>
+				<p>
+					<strong>Masala Dosa Recipe:</strong>
+				</p>
+				<h4>
+					PREP TIME: 10min
+				</h4>
+				<h4>
+					COOK TIME: 45min
+				</h4>
+				<h4>
+					Ingredients
+				</h4>
+				<ul>
+						<li class="ingredient">2 cups rice-preferably parboiled</li>
+						<li class="ingredient">1/2 cup split and husked Black Gram (Dhuli Urad)</li>
+						<li class="ingredient">1/2 tsp fenugreek seeds</li>
+						<li class="ingredient">2 tsp salt</li>
+						<li class="ingredient">Oil to smear the pan for cooking the dosas</li>
+
+						<li class="ingredient">For the Masala for Dosas:</li>
+						<li class="ingredient">500 gm (3 cups) potatoes-boiled, peeled and cubed</li>
+						<li class="ingredient">1 1/2 cups onions-sliced not very thin</li>
+						<li class="ingredient">2 green chillies-chopped coarsely (optional)</li>
+						<li class="ingredient">2 Tbsp oil</li>
+						<li class="ingredient">1 tsp mustard seeds</li>
+						<li class="ingredient">6-7 curry leaves or 1/2 tsp dried curry leaves</li>
+						<li class="ingredient">2 tsp salt</li>
+						<li class="ingredient">1/4 tsp powdered turmeric</li>
+						<li class="ingredient">1/2 cup water</li>
+				</ul>
+				<h4>
+					Step to Make Masala Dosa:
+				</h4>	
+				<p>
+					Wash and soak the rice in one container and the dal and fenugreek seeds together in another container for 5-6 hours or over night, depending on the weather. 
+					Grind dal mixture together to a very smooth consistency. Next grind the rice smooth too and mix the two batters.  Add salt and enough water to make into a dropping consistency. Leave to ferment over-night or more depending on the weather, till a little spongy.  If thickened too much, add a little water to thin a bit. Heat tawa, and brush oil over it. When really hot, splash a little water over it, and immediately pour batter onto it, spreading it thin, with a circular motion.  This will have to be very swift and will need a bit of practice.  After spreading the batter, lower the heat and dribble a little oil around the edges so that it seeps under the dosa.  When edges start browning a bit, pass a flat spoon under it to ease the dosa off the pan. Put desired filling in the center, and fold the two edges over.  Serve accompanied with sambhar and chutney.  
+					For the Masala Filling:  Heat the oil in a heavy based pan and add the mustard seeds, then onions, curry leaves and green chillies, and saute over high heat till the onions are a little transparent.  Add the salt and the turmeric and mix well, before adding the potatoes.  Turn the potatoes around till well mixed, and add the water, and let it simmer, for 2-3 minutes.
+				<p>
+				<button class=" button2"><a href="regional_food.html#menu3">Menu</a></button>
+				<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+			</div>
+			
+			<!--South-India Recipe4: Rasam-->
+			<div id="rasam">
+				<h3 class="head_content">
+				Rasam RECIPE, HOW TO MAKE Rasam STEP BY STEP
+				</h3>
+				<p>
+					<strong>Rasam Recipe:</strong>A south Indian dish which is usually watery and doesn't have a thick consistency like sambhar. Made with toor dal, lots of pepper and tomatoes, rasam can be eaten eaten as soup or with steamed rice.
+				</p>
+				<h4>
+					PREP TIME: 10min
+				</h4>
+				<h4>
+					COOK TIME:30min
+				</h4>
+				<p>
+					<strong>About:</strong>A south Indian dish which is usually watery and doesn't have a thick consistency like sambhar. Made with toor dal, lots of pepper and tomatoes, rasam can be eaten eaten as soup or with steamed rice.
+				</p>
+				<h4>
+					Ingredients:
+				</h4>
+				<ul>
+				<li class="ingredient">100 gm toor dal</li>
+				<li class="ingredient">100 gm tomatoes</li>
+				<li class="ingredient">500 ml water</li>
+				<li class="ingredient">25 gm tamarind</li>
+
+				<li class="ingredient">Rasam powder:</li>
+
+				<li class="ingredient">10 gm peppercorns</li>
+				<li class="ingredient">10 gm cumin seeds</li>
+				<li class="ingredient">10 gm coriander seeds</li>
+				<li class="ingredient">3 gm red chillies</li>
+
+				<li class="ingredient">Tempering:</li>
+
+				<li class="ingredient">30 ml oil</li>
+				<li class="ingredient">3 gm mustard seeds</li>
+				<li class="ingredient">2 gm curry leaves</li>
+				<li class="ingredient">3 garlic cloves</li>
+				<li class="ingredient">10 gm sprigs of coriander leaves</li>
+				<li class="ingredient">Salt</li>
+				</ul>
+				<h4>
+					Step to Make Rasam:
+				</h4>
+				<p>
+					Crush garlic and chop tomatoes.  Soak the tamarind and extract the pulp.  Roast the ingredients for the powder and grind until fine.  Boil the dal with tomatoes till the lentils are mashed and set aside.  Heat oil and add mustard seeds, leave until it crackles.  Add the crushed garlic, curry leaves and the coriander leaves.  Mix the dal and water to get the required rasam consistency.  Mix in the tamarind pulp. Add the rasam powder.  Boil for 5 minutes on a low flame.
+				<p>
+				<button class=" button2"><a href="regional_food.html#menu3">Menu</a></button>
+				<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+			</div>
+			
+			<!--South-India Recipe5:Uttapam-->
+			<div id="upp">
+				<h3 class="head_content">
+					Uttapam RECIPE, HOW TO MAKE Uttapam STEP BY STEP
+				</h3>
+				<p>
+					<strong>Uttapam Recipe:</strong>A traditional delicacy from down South which literally means 'poured appam' in Tamil. Uttapam is a dosa-like preparation made with the batter of rice, dhuli urad dal and fenugreek seeds.
+				</p>
+				<h4>
+					PREP TIME: 10min
+				</h4>
+				<h4>
+					COOK TIME: 15min
+				</h4>
+				<p>
+					<strong>About:</strong>A traditional delicacy from down South which literally means 'poured appam' in Tamil. Uttapam is a dosa-like preparation made with the batter of rice, dhuli urad dal and fenugreek seeds.
+				<p>
+				<h4>
+					Ingredients:
+				</h4>
+				<ul>
+				<li class="ingredient">2 cups (360 gm) parboiled rice</li>
+				<li class="ingredient">1/2 cup (90 gm) split and husked Bengal Gram (dhuli urad)</li>
+				<li class="ingredient">1/2 tsp fenugreek seeds</li>
+				<li class="ingredient">2 tsp salt</li>
+				<li class="ingredient">An iron griddle or tawa</li>
+				<li class="ingredient">Oil to smear the pan for cooking the uttapam</li>
+				</ul>
+				<h4>
+					Step to Make Uttapam
+				</h4>
+				<p>
+					Soak rice, daal and methi in water for 5-6 hours.  Grind fine, add salt and enough water to make a dropping consistency and leave to ferment 5-6 hours.  Heat tawa, and brush oil over it. When really hot, splash a little water over it, and pour about 1 cup of batter on to it.  It will spread a little. When the edges start browning a bit, pour a trail of oil around it.  Turn it over and let it brown on the other side too. 
+				<p>
+				<button class=" button2"><a href="regional_food.html#menu3">Menu</a></button>
+				<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+			</div>
         </div>
+		</div>
+		
         <div id="gujrathi">
             <h2 class="head_text head_content">
               Gujrathi
             </h2>
+			<section class="container">
+				<section class="container">
+					<h5><div id="menu4">Menu</div><h5>
+				</section>
+				<div class="wrap_content">
+			
+				<div class="tile">
+				
+						<a href="regional_food.html#handvo"><img src="images\handvo-620.jpg" width="220" height="140"></a>
+							<div class="center">
+								<h5>handvo</h5>
+							</div>
+				</div>
+				<div class="tile">
+						<a href="regional_food.html#kadhi"><img src="images\kadhi_625x350_71461046025.jpg" width="220" height="140"></a>
+							<div class="center">
+								<h5>kadhi</h5>
+							</div>
+				</div>
+				<div class="tile">
+						<a href="regional_food.html#khandvi"><img src="images\khandvi.1.jpg" width="220" height="140"></a>
+							<div class="center">
+								<h5>khandvi</h5>
+							</div>
+				</div>
+				</div>
+				<div class="wrap_content">
+						<div class="tile">
+									<a href="regional_food.html#dhokali"><img src="images\dal-dhokli-620.jpg" width="220" height="140"></a>
+									<div class="center">
+										<h5>dal-dhokli</h5>
+									</div>
+						</div>
+						<div class="tile">
+								<a href="regional_food.html#thepale"><img src="images\methi-paratha_625x350_51460966144.jpg" width="220" height="140"></a>
+									<div class="center">
+										<h5>methi-paratha</h5>
+									</div>
+						</div>
+						<div class="tile">
+								<a href="regional_food.html#undhiyu"><img src="images\undhiyo_med.jpg" width="220" height="140"></a>
+									<div class="center">
+										<h5>undhiyo_med</h5>
+									</div>
+						</div>
+				</div>
+		</section>
             <div class "recipe_menu">
-                <!-- Mahashrian Recipe1 :paavbhaji -->
-                <div id="thali">
+                <!-- Gujarati Recipe1 :Handvo -->
+				
+                <div id="handvo">
                     <h3 class="head_content">
-                      Gujrathi Thali RECIPE, HOW TO MAKE Gujrathi Thali STEP BY STEP
+                      Handvo RECIPE, HOW TO MAKE Gujrathi Handvo STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Handvo Recipe:</strong>A traditional Gujarati savoury cake. It is made with a combinations of lentils, rice and buttermilk. 
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 10-15min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 30min
                     </h4>
                     <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
+                        <strong>About:</strong>A traditional Gujarati savoury cake. It is made with a combinations of lentils, rice and buttermilk. 
                     </p>
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+						<li class="ingredient">1 medium bottle gourd</li> 
+						<li class="ingredient">3 Tbsp coriander chopped</li> 
+						<li class="ingredient">3-4 green chillies finely chopped</li> 
+						<li class="ingredient">3 cups buttermilk</li> 
+						<li class="ingredient">3 tsp soda bi-carb</li> 
+						<li class="ingredient">1 tsp each urad and channa dal</li> 
+						<li class="ingredient">1 tsp each cumin and mustard seeds</li> 
+						<li class="ingredient">4-5 Tbsp oil</li> 
+						<li class="ingredient">salt to taste</li> 
+
+						<li class="ingredient">For grinding together:</li> 
+						<li class="ingredient">1 cup rice</li> 
+						<li class="ingredient">1 cup yellow moong dal</li>
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Handvo:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        1.Take butter milk in a large vessel. 
+						2.Add salt, soda and flour, mix well. 
+						3.Keep it aside for 6-7 hours. 
+						4.Grate bottle gourd and squeeze out excess water. 
+						5.Then add gourd, coriander and green chillies
+						Heat oil in a pan, add urad & channa dals, and seeds. 
+						7.Allow to splutter, pour half in the batter and mix it thoroughly. 
+						8.Put it in a greased oven proof deep container. 
+						9.Pour remaining seasoning on top. 
+						10.Place in a preheated oven at 280oC for 10 minutes. 
+						11.Reduce to 200 C or 180 C for 40 minutes or till done. 
+						12.Check by inserting a skewer, which should come out clean. 
+						13.Slice into wedges and serve hot.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu4">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
                 <!-- Mahashrian Recipe2 :Purnpoli -->
-                <div id="gulabjaam">
+                <div id="kadhi">
                     <h3 class="head_content">
-                      gulabjaam RECIPE, HOW TO MAKE gulabjaam STEP BY STEP
+                      Gujarati Kadhi RECIPE, HOW TO MAKE Gujarati Kadhi STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Gujarati Kadhi Recipe:</strong>A yogurt and gram flour based recipe, Gujarati Kadhi never fails to impress. 
                     </p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 5min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 40min
                     </h4>
                     <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
+                        <strong>About:</strong>A yogurt and gram flour based recipe, Gujarati Kadhi never fails to impress. 
                     </p>
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+                        <li class="ingredient">2 cups sour yoghurt</li> 
+						<li class="ingredient">2 Tbsp gram flour</li> 
+						<li class="ingredient">4 cups water</li> 
+						<li class="ingredient">1/4 tsp asafoetida</li> 
+						<li class="ingredient">1 Tbsp salt</li> 
+						<li class="ingredient">1 tsp chilli powder</li> 
+						<li class="ingredient">1/4 tsp cinnamon powder</li> 
+						<li class="ingredient">2-3 Tbsp sugar</li> 
+						<li class="ingredient">2 Tbsp oil</li> 
+						<li class="ingredient">2 tsp mustard seeds</li> 
+						<li class="ingredient">8-10 curry leaves</li> 
+						<li class="ingredient">3-4 whole red chillies</li> 
+						<li class="ingredient">2 Tbsp coriander leaves</li>
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Gujarati Kadhi:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        1.Whisk the yoghurt till smooth, add gram flour to it, blending well till batter becomes smooth again. 
+						2.Add asafoetida, salt, chilli powder, cinnamon powder, sugar and water. Mix very well. 
+						3.In a heavy-based saucepan, heat oil, add mustard seeds, curry leaves and whole red chillies. 
+						4.When the seeds begin to splutter, add the yoghurt mixture, increase flame and bring to a boil. 
+						5.Lower flame and leave to simmer for about 15-20 minutes. 
+						6.Serve Gujarati Kadhi hot, garnished with coriander leaves.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu4">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="dhokali">
+					<h3 class="head_content">
+					Dal Dhokali RECIPE, HOW TO MAKE Dal Dhokali  STEP BY STEP
+					</h3>
+					<p>
+						<strong>Dal Dhokali </strong>'Daal Dhokli' is a popular Gujarati curry. Savory dumplings made of whole wheat flour simmered in tuvar daal. 
+					</p>
+					<h4>
+						PREP TIME: 7-8min
+					</h4>
+					<h4>
+						COOK TIME: 30min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">For the dal:</li>
+						<li class="ingredient">1 cup tuvar dal</li>
+						<li class="ingredient">2 Tbsp peanuts-soaked in water for 30 minutes</li> 
+						<li class="ingredient">5 cloves garlic-chopped</li> 
+						<li class="ingredient">4 kokums</li>
+						<li class="ingredient">1 tsp cumin seeds</li> 
+						<li class="ingredient">1/2 tsp turmeric powder</li> 
+						<li class="ingredient">1/2 tsp chilli powder</li> 
+
+						<li class="ingredient">For the dhokli:</li>
+						<li class="ingredient">1 cup wheat flour (aata)</li> 
+						<li class="ingredient">1/2 tsp asafoetida</li> 
+						<li class="ingredient">1/2 tsp chilli powder</li> 
+						<li class="ingredient">1/2 tsp turmeric</li> 
+						<li class="ingredient">Oil</li> 
+						<li class="ingredient">Salt to taste</li>
+					</ul>
+					<h4>
+						Step to Make Dal Dhokali :
+					</h4>
+					<p>
+						1.Boil daal and the peanuts in a pressure cooker till soft. Keep aside. 
+						2.Heat 1 Tbsp ghee in a pan and add cumin seeds, garlic, asafoetida and finally, the boiled daal. 
+						3.Add cocum, turmeric powder, chilli powder, sugar and curry leaves. Boil and add salt to taste. 
+						4.Note: You can add vegetables also.
+						5.To make the dhokli, mix the flour, salt, turmeric, chilli powder, asafoetida and a little oil and make a stiff dough with water. Knead well and roll out into 10 cm discs. 
+						6.Cut the discs into diamonds or squares with a knife and drop them into the boiling daal mixture. 
+						7.When all the dhokli pieces are put in, boil the daal for a further 15 minutes on a low fire. Garnish with coriander leaves and serve hot
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu4">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="khandvi">
+					<h3 class="head_content">
+					Khandi RECIPE, HOW TO MAKE Khandi STEP BY STEP
+					</h3>
+					<p>
+						<strong>Khandi</strong>This popular Gujarati recipe has a huge fan following.
+					</p>
+					<h4>
+						PREP TIME: 15min
+					</h4>
+					<h4>
+						COOK TIME: 1hr
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">1/2 cup (60 gm) besan (Chick-pea flour)</li>
+						<li class="ingredient">1/2 cup (60 gm) khatta dahi (sour yogurt)</li>
+						<li class="ingredient">1 1/2 cups (375 ml) cup water</li>
+						<li class="ingredient">1/2 tsp ginger paste</li>
+						<li class="ingredient">1/2 tsp green chilli paste</li>
+						<li class="ingredient">1/2 tsp red chilli powder</li>
+						<li class="ingredient">1 tsp salt or to taste</li>
+						<li class="ingredient">1/8 tsp heeng (asofoetida)</li>
+						<li class="ingredient">1/8 tsp haldi (turmeric)</li>
+
+						<li class="ingredient">For tempering:</li>
+						<li class="ingredient">2 tsp oil</li>
+						<li class="ingredient">1/2 tsp sarson (mustard seeds)</li>
+						<li class="ingredient">2 sabut lal mirch (dried whole red pepper)</li>
+						<li class="ingredient">4-5 kadhi patta (curry leaves)</li>
+						<li class="ingredient">1 Tbsp hara dhania (coriander leaves) chopped fine</li>
+						<li class="ingredient">1/4 cup grated coconut</li>
+					</ul>
+					<h4>
+						Step to Make Khandi:
+					</h4>
+					<p>
+						1.Place flour in a deep, heavy based pan (the pan should be large, as there is a lot of spurting while cooking).
+						2.Add ginger-chilli paste, chilli powder, salt, heeng and haldi, and mix. Now add the yogurt, a little at a time, so as to form a smooth paste, without any lumps, and then the water.
+						3.Place the pan over high heat, and bring to a boil, stirring all the time (to avoid scorching).
+						4.Keep cooking and stirring till you reach a paste like consistency, increasing or decreasing the heat according to your ability to avoid scorching.
+						5.It is cooked enough, when you separate a portion of it from the rest with a stirrer and you can see the bottom of the pan, which gets covered gradually (if it gets covered immediately, it is too thin). Another test is to spread a tsp of the batter on to an ungreased surface, when cool, it should come off clean.
+						6.With the help of a rubber spatula spread the mixture onto an ungreased surface, in as thin a layer as possible and leave to cool.
+						7.Heat the oil in a small pan and add the sarson, kadhi patta and sabut lal mirch. Stir a few times and then spread over the layer. Sprinkle all but 1 tbsp of the coriander and 1tbsp of the coconut over it, and pick up the lal mirch and keep aside.
+						8.Cut this layer into strips roll up each strip like a scroll, as firmly as you can, without breaking them.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu4">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="thepale">
+					<h3 class="head_content">
+					Methi ke theple RECIPE, HOW TO MAKE Methi ke theple STEP BY STEP
+					</h3>
+					<p>
+						<strong>Methi ke theple Recipe:</strong>
+					</p>
+					<h4>
+						PREP TIME: 6min
+					</h4>
+					<h4>
+						COOK TIME: 30min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">2 cups atta</li>
+						<li class="ingredient">2 Tbsp oil</li> 
+						<li class="ingredient">1 Tbsp dried methi or 1/4 cup green methi</li>
+						<li class="ingredient">2 tsp salt</li> 
+						<li class="ingredient">2 tsp ginger and green chillies - make paste</li> 
+						<li class="ingredient">1 tsp garlic</li> 
+						<li class="ingredient">2 tsp coriander powder</li> 
+						<li class="ingredient">1 tsp sugar</li> 
+						<li class="ingredient">Yogurt to knead</li>
+					</ul>
+					<h4>
+						Step to Make Methi ke theple:
+					</h4>
+					<p>
+						1.Knead with yogurt and make very thin paranthas.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu4">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+					<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="undhiyu">
+					<h3 class="head_content">
+					Undhiyu RECIPE, HOW TO MAKE Undhiyu STEP BY STEP
+					</h3>
+					<p>
+						<strong>Undhiyu</strong>Explore the flavours of this authentic Gujarati vegetable curry. Fried vegetables and chickpea dumplings bathed in simmering, spicy masalas.
+					</p>
+					<h4>
+						PREP TIME: 10min
+					</h4>
+					<h4>
+						COOK TIME: 30min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">100 gms yam- peeled and diced</li> 
+						<li class="ingredient">100 gms potato- peeled and diced</li> 
+						<li class="ingredient">100 gms beans- diced</li> 
+						<li class="ingredient">100 gms raw banana- diced</li> 
+						<li class="ingredient">1/2 tsp asafoetida</li> 
+						<li class="ingredient">1/2 tsp whole cumin</li> 
+						<li class="ingredient">Oil to fry</li>
+
+						<li class="ingredient">For the muthiya:</li>
+						<li class="ingredient">2 cups chickpea flour</li> 
+						<li class="ingredient">1 tsp kastoori methi</li> 
+						<li class="ingredient">1 tsp red chilli</li> 
+						<li class="ingredient">1 tsp sathri or lemon flower</li> 
+						<li class="ingredient">1 tsp sugar</li> 
+						<li class="ingredient">2 tsp oil for binding</li> 
+						<li class="ingredient">Salt to taste</li>
+						<li class="ingredient">1/4 tsp cumin</li> 
+						<li class="ingredient">1/2 tsp turmeric</li> 
+
+						<li class="ingredient">For the masala:</li>
+						<li class="ingredient">1 Tbsp grated coconut</li> 
+						<li class="ingredient">3 tsp coriander powder</li> 
+						<li class="ingredient">1/2 tsp cumin</li> 
+						<li class="ingredient">1 Tbsp fresh coriander- chopped</li> 
+						<li class="ingredient">1/2 tsp turmeric powder</li> 
+						<li class="ingredient">1 tsp red chilli powder</li> 
+						<li class="ingredient">1/2 tsp oil</li> 
+						<li class="ingredient">Salt to taste</li>
+					</ul>
+					<h4>
+						Step to Make Undhiyu:
+					</h4>
+					<p>
+						1.Lightly fry all the vegetables and keep aside. 
+						2.To prepare muthiya, mix all the ingredients in a bowl. 
+						3.Make small balls from this mixture and fry. 
+						4.To prepare the masala, mix all the ingredients. Keep aside. 
+						5.Heat oil in a pan and add asafoetida and cumin. 
+						6.Now add the masala mixture and cook for few minutes. 
+						7.Finally add all the vegetables and muthiya balls 
+						8.Cook till done.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu4">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
             </div>
         </div>
         <div id="chinese">
             <h2 class="head_text head_content">
               Chinese
             </h2>
+			<section class="container">
+				<section class="container">
+					<h5><div id="menu5">Menu</div><h5>
+				</section>
+			<div class="wrap_content">
+		
+			<div class="tile">
+			
+					<a href="regional_food.html#machurian"><img src="images\img7.png" width="220" height="140"></a>
+						<div class="center">
+							<h5>Manchurian</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#noodles"><img src="images\ban-ban-Noodles.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Dan Dan Noodles</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#soup"><img src="images\img2.png" width="220" height="140"></a>
+						<div class="center">
+							<h5>Vegetable Manchow Soup</h5>
+						</div>
+			</div>
+			<div class="tile">
+						<a href="regional_food.html#rice"><img src="images\img5.png" width="220" height="140"></a>
+						<div class="center">
+							<h5>Vegetable Fried Rice</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#soya"><img src="images\img9.png" width="220" height="140"></a>
+						<div class="center">
+							<h5>Chilli Soya Nuggets</h5>
+						</div>
+			</div>
+		</div>
+		</section>
             <div class "recipe_menu">
-                <!-- Mahashrian Recipe1 :paavbhaji -->
+                <!-- Chainese Recipe1 :paavbhaji -->
                 <div id="chinese_bhel">
                     <h3 class="head_content">
                     Chinese Bhel RECIPE, HOW TO MAKE Chinese Bhel STEP BY STEP
@@ -516,14 +1622,16 @@
                     <p>
                         Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu5">Menu</a></button>
+				<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
-                <!-- Mahashrian Recipe2 :Purnpoli -->
+                <!-- Chainese Recipe2 :machurian -->
                 <div id="machurian">
                     <h3 class="head_content">
                       machurian RECIPE, HOW TO MAKE machurian STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>machurian Recipe:</strong>If you're craving a dish that's crunchy, fried and packs a punch then you've come to the right place. Medium sized cauliflower florets are nicely coated with a simple batter and then fried for a few minutes till crispy. Then, to make sure you don't miss out on something spicy, there's also the perfect sauce that you can use to dress the manchurian in. This Gobi Manchurian is a sure shot winner and one you'll thank us for. 
                     </p>
                     <h4>
                       PREP TIME: 30min
@@ -531,179 +1639,826 @@
                     <h4>
                       COOK TIME: 20min
                     </h4>
-                    <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
-                    </p>
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+                        
+						<li class="ingredient">500 gm cauliflower - grated</li>
+						<li class="ingredient">2 eggs - slightly beaten</li>
+						<li class="ingredient">3/4 cup refined flour</li>
+						<li class="ingredient">1/2 tsp garlic paste</li>
+						<li class="ingredient">1/2 tsp ginger paste</li>
+						<li class="ingredient">1/4 tsp ajinomoto - optional</li>
+						<li class="ingredient">Water</li>
+						<li class="ingredient">Oil for deep frying</li>
+						<li class="ingredient">2 Tbsp oil</li>
+						<li class="ingredient">1 tsp finely chopped garlic</li>
+						<li class="ingredient">1/2 cup finely chopped onions</li>
+						<li class="ingredient">1 large capsicum - chopped</li>
+					
+						<h4>For Sauce, Mix together:</h4>
+						
+						<li class="ingredient">3 Tbsp corn flour, blended with 1/2 cup water</li>
+						<li class="ingredient"> 2 Tbsp vinegar</li>
+						<li class="ingredient">2 tsp salt</li>
+						<li class="ingredient">2 tsp soya sauce</li>
+						<li class="ingredient">1/2 cup tomato puree</li>
+						<li class="ingredient">2 Tbsp chopped celery or 1/4 tsp celery</li>
+						<li class="ingredient">Salt</li>
+						<li class="ingredient">1/4 tsp ajinomoto - optional</li>
+						<li class="ingredient">2 cups water</li>
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make machurian:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                        Gather all your ingredients and make sure the cucumber florets are medium in size. 
+						 Mix all the ingredients - egg, flour, garlic, ginger paste and 
+						ajino moto to make a thick batter and then coat the cauliflower in it.
+						 Let the coated cauliflower rest for 5 to 10 minutes. 
+						 Heat the oil and fry the cauliflower till its golden brown and crisp. 
+						Make sure you fry the cauliflower on high heat. 
+						Let the cauliflower rest on a tissue or any kind of paper which can soak the oil. 
+						 Heat the 2 tbsp oil, and stir-fry the garlic and onion over high heat.
+						 Let them cook till the onion seems translucent.
+						 Add the capsicum and turn around a few times. 
+						Slowly pour in the sauce and let it simmer. Over time, you'll see the mix losing water and becoming thicker with time.
+						 Keep it cooking till the sauce seems a bit translucent.
+						 Add the cauliflower florets to the sauce.
+						 Stir them around till they're completely doused in sauce.
+						Serve hot.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu5">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
-                <!-- Mahashrian Recipe2 :Purnpoli -->
+                <!-- Chainese Recipe2 :Ban Ban noodles-->
                 <div id="noodles">
                     <h3 class="head_content">
                     Ban Ban noodles RECIPE, HOW TO MAKE Ban Ban noodles STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
+                        <strong>Ban Ban noodles  Recipe:</strong> 
                     </p>
                     <h4>
                       PREP TIME: 30min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 30min
                     </h4>
-                    <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
-                    </p>
+                   
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+						<li class="ingredient">500g wheat noodles</li>
+						<li class="ingredient">250g cabbage</li>
+						<li class="ingredient">100ml soy sauce</li>
+						<li class="ingredient">50g Chinese sesame paste</li>
+						<li class="ingredient">25ml sesame oil</li>
+						<li class="ingredient">50g peanut oil</li>
+						<li class="ingredient">25g spring onions</li>
+						<li class="ingredient">50g bean sprouts</li>
+						<li class="ingredient">75ml chilli oil with chilli sediment</li>  
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Ban Ban noodles :
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+                       First, set the noodles to cook in boiling water, until tender but not soft. Then add the cabbage just enough to let it wilt a little - a few seconds.<br> Remove and place aside. Meanwhile, thin the sesame paste with the sesame oil. 
+						Julienne the scallions and bean sprouts. 
+						Place the condiments at the bottom of the bowl, 
+						then heap the nest of noodles and vegetables on top. Season, stir it all up and eat.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu5">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
-            </div>
+				
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="soup">
+					<h3 class="head_content">
+					Vegetable Manchow Soup RECIPE, HOW TO MAKE Vegetable Manchow Soup STEP BY STEP
+					</h3>
+					<p>
+						<strong>Vegetable Manchow Soup Recipe:</strong>Savour the hot and spicy flavours of this Chinese vegetable manchow soup.
+					</p>
+					<h4>
+						PREP TIME: 5min
+					</h4>
+					<h4>
+						COOK TIME: 30min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">4 cups water</li>
+						<li class="ingredient">1 tsp ginger - finely chopped</li>
+						<li class="ingredient">1 tsp garlic - finely chopped</li>
+						<li class="ingredient">1 tsp green chilies - finely chopped</li>
+						<li class="ingredient">1 Tbsp coriander leaves - finely chopped</li>
+						<li class="ingredient">2 Tbsp French beans - finely chopped</li>
+						<li class="ingredient">2 Tbsp carrots - finely chopped</li>
+						<li class="ingredient">2 Tbsp cabbage - finely chopped</li>
+						<li class="ingredient">2 Tbsp capsicum - finely chopped</li>
+						<li class="ingredient">2 Tbsp mushrooms - finely chopped</li>
+						<li class="ingredient">2 spring onions - finely chopped</li>
+						<li class="ingredient">1 tsp pepper</li>
+						<li class="ingredient">1 Tbsp Soya sauce</li>
+						<li class="ingredient">4 Tbsp cornflour - mixed with</li>
+						<li class="ingredient">1 cup water</li>
+						<li class="ingredient">2 stems of spring onion</li>
+						<li class="ingredient">3 Tbsp oil salt as required</li>
+					</ul>
+					<h4>
+						Step to Make Vegetable Manchow Soup:
+					</h4>
+					<p>
+					In a pan, add some oil and stir fry the ginger, garlic, coriander leaves and green chilies for about two minutes.
+					  Add all the vegetables, pepper, ajinomoto, salt and continue to stir-fry for two more minutes.  Add the Soya sauce, water and salt. 
+					 Let it boil, reduce the heat and add the cornflour mixed with water and stir constantly till it thickens slightly. 
+					 Remove from heat and serve immediately. 
+					 Garnish with spring onion stems.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu5">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Vegetable Fried Rice-->
+				<div id="rice">
+					<h3 class="head_content">
+					Vegetable Fried Rice RECIPE, HOW TO MAKE Vegetable Fried Rice STEP BY STEP
+					</h3>
+					<p>
+						<strong>Vegetable Fried Rice Recipe:</strong>Steamed rice cooked with vegetables and oriental sauces. Serve with a lip smacking spicy curry.
+					</p>
+					<h4>
+						PREP TIME: 5min
+					</h4>
+					<h4>
+						COOK TIME: 20min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">1 bowl boiled rice (A day old rice make the best fried rice)</li>
+						<li class="ingredient">1 Tbsp oil</li>
+						<li class="ingredient">2-3 cloves garlic, chopped</li>
+						<li class="ingredient">1 red chilli, chopped</li>
+						<li class="ingredient">1 Tbsp carrots, chopped</li>
+						<li class="ingredient">3-4 baby corn, chopped</li>
+						<li class="ingredient">4-5 Tbsp cabbage, diced</li>
+						<li class="ingredient">1/2 Tbsp sesame oil</li>
+						<li class="ingredient">4-5 green beans, chopped</li>
+						<li class="ingredient">Salt, to taste</li>
+						<li class="ingredient">Pepper, to taste</li>
+						<li class="ingredient">1 tsp soy sauce</li>
+						<li class="ingredient">2-3 Tbsp wine (optional)</li>
+						<li class="ingredient">Spring onion greens, to garnish</li>
+					</ul>
+					<h4>
+						Step to Make Vegetable Fried Rice:
+					</h4>
+					<p>
+						In a pan add 1 Tbsp oil, garlic and chilli. Saute.  Add carrots, baby corn, green beans and cabbage.
+						 Saute and add sesame oil. Add the rice.  Season with salt and pepper, soy sauce and wine.
+						 Cook for a minute.  Serve hot garnished with some chopped spring onion greens.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu5">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Chilli Soya Nuggets-->
+				<div id="soya">
+					<h3 class="head_content">
+					Chilli Soya Nuggets RECIPE, HOW TO MAKE Chilli Soya Nuggets STEP BY STEP
+					</h3>
+					<p>
+						<strong>Chilli Soya Nuggets Recipe:</strong>Healthy soya, flavors of soya sauce, vinegar, garlic and green chillies to add the spice, makes for this hassle free Spicy Soya Nuggets recipe.
+					</p>
+					<h4>
+						PREP TIME: 5min
+					</h4>
+					<h4>
+						COOK TIME: 20min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">100 gm soya nuggets - soaked in water for 1/2 an hour & drained</li>
+						<li class="ingredient">2 Tbsp salt or to taste</li>
+						<li class="ingredient">1/2 Tbsp garlic paste</li>
+						<li class="ingredient">2 Tbsp oil</li>
+						<li class="ingredient">1 cup spring onions - chopped coarsely</li>
+						<li class="ingredient">2 Tbsp green chillies-thickly sliced</li>
+						<li class="ingredient">2 Tbsp soya sauce</li>
+						<li class="ingredient"> 2 Tbsp vinegar</li>
+						<li class="ingredient">Some greens for garnish</li>
+					</ul>
+					<h4>
+						Step to Make Chilli Soya Nuggets:
+					</h4>
+					<p>
+						 Mix together the nuggets, 1 tsp salt and garlic paste. 
+						 Heat the oil, add the onions and stir-fry over high heat till a little brown at the edges. 
+						 Add the green chillies and stir a few times, add the remaindered salt, soya sauce, vinegar and the nuggets. 
+						 Stir-fry over high heat for a minute or so and serve garnished with some greens.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu5">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				
+			</div>	
         </div>
         <div id="chat">
             <h2 class="head_text head_content">
               Chat-Point
             </h2>
+			<section class="container">
+				<section class="container">
+					<h5><div id="menu6">Menu</div><h5>
+				</section>
+			<div class="wrap_content">
+			<div class="tile">
+			
+					<a href="regional_food.html#dahi_puri"><img src="images\chat.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Dahi Puri</h5>
+						</div>
+			</div>
+			<div class="tile">
+			
+					<a href="regional_food.html#chhana"><img src="images\channa-chaat_med.png" width="220" height="140"></a>
+						<div class="center">
+							<h5>channa-chaat</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#aloo"><img src="images\dilli.ki.fried.aloo.chaat.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>dilli.ki.fried.aloo.chaat</h5>
+						</div>
+			</div>
+			<div class="tile">
+					<a href="regional_food.html#palak"><img src="images\Palak-Patta-Chaat.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Palak-Patta-Chaat</h5>
+						</div>
+			</div>
+			<div class="tile">
+						<a href="regional_food.html#papadi"><img src="images\papadi-620.jpg" width="220" height="140"></a>
+						<div class="center">
+							<h5>Papadi</h5>
+						</div>
+			</div>
+			
+		</div>
+		</section>
             <div class "recipe_menu">
-                <!-- Mahashrian Recipe1 :paavbhaji -->
+                <!--Chat Recipe1 :paavbhaji -->
                 <div id="dahi_puri">
                     <h3 class="head_content">
                       Dahi puri RECIPE, HOW TO MAKE dahipuri STEP BY STEP
                     </h3>
                     <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
-                    </p>
+                        <strong>Dahi_puri Recipe:</strong> 
+						</p>
                     <h4>
-                      PREP TIME: 30min
+                      PREP TIME: 10min
                     </h4>
                     <h4>
-                      COOK TIME: 20min
+                      COOK TIME: 25min
                     </h4>
-                    <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
-                    </p>
+                    
                     <h4>
                       Ingredients:
                     </h4>
                     <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
+                        <li class="ingredient">2 cubed,boiled potato</li>
+						<li class="ingredient">3/4 teaspoon chaat masala powder</li>
+						<li class="ingredient">1/4 cup green chutney</li>
+						<li class="ingredient">1 handful chopped coriander leaves</li>
+						<li class="ingredient">1 teaspoon sugar</li>
+						<li class="ingredient">15 crushed paani puris</li>
+						<li class="ingredient">1/4 cup sev</li>
+						<li class="ingredient">1/4 teaspoon Red chilli powder</li>
+						<li class="ingredient">1 cup yoghurt (curd)</li>
+						<li class="ingredient">2 pinches salt</li>
+						<li class="ingredient">1/4 teaspoon powdered cumin</li>
                     </ul>
                     <h4>
-                        Steps to make paavbhaji:
+                        Steps to make Dahi_puri:
                     </h4>
                     <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
+						Mix curd, salt and sugar in a bowl. Arrange the puris on a plate.
+					
+
+						Top up with the potatoes, chaat masala powder, red chilli powder and cumin powder.
+						
+
+						Pour 2 to 3 tsp of green chutney and curd on top.
+
+						Garnish with sev and coriander leaves. Serve at once.
                         <p>
+						<button class=" button2"><a href="regional_food.html#menu6">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
                 </div>
-                <!-- Mahashrian Recipe2 :Purnpoli -->
-                <div id="puranpoli">
-                    <h3 class="head_content">
-                      Puranpoli RECIPE, HOW TO MAKE Puranpoli STEP BY STEP
-                    </h3>
-                    <p>
-                        <strong>Pav Bhaji Recipe:</strong> Pav Bhaji is a popular street food in India. Pav refers to the super soft equivalent of Indian dinner rolls and bhaji is the mashed and spiced vegetable side that goes with Pav.
-                    </p>
-                    <h4>
-                      PREP TIME: 30min
-                    </h4>
-                    <h4>
-                      COOK TIME: 20min
-                    </h4>
-                    <p>
-                        <strong>About:</strong> Pav Bhaji is a popular and delicious street food in India. Made with a mish mash of vegetables cooked in spices, it's served with soft pav buns toasted in butter
-                    </p>
-                    <h4>
-                      Ingredients:
-                    </h4>
-                    <ul>
-                        <li class="ingredient">250 gm of cauliflower</li>
-                        <li class="ingredient">1 large potato</li>
-                        <li class="ingredient">1 small capsicum / bell pepper</li>
-                        <li class="ingredient">1 tsp of minced garlic</li>
-                        <li class="ingredient">1 tsp of minced ginger</li>
-                        <li class="ingredient">2 cups of tomato puree</li>
-                        <li class="ingredient">¼ cup of green peas</li>
-                        <li class="ingredient">1 tsp of red chilli powder (I use Kashmiri Chilli Powder)</li>
-                        <li class="ingredient">½ tsp of turmeric powder</li>
-                        <li class="ingredient">2 tbsp of pav bhaji masala (adjust to taste)</li>
-                        <li class="ingredient">1 tbsp of oil</li>
-                        <li class="ingredient">2-3 tbsp of butter</li>
-                        <li class="ingredient">1&nbsp;onion, chopped fine, to serve</li>
-                        <li class="ingredient">1 small bunch of coriander leaves, for garnish</li>
-                        <li class="ingredient">6 lemon or lime wedges, to serve</li>
-                    </ul>
-                    <h4>
-                        Steps to make paavbhaji:
-                    </h4>
-                    <p>
-                        Boil or pressure cook cauliflower, potatoes and peas until cooked fully. Add butter or oil to a pan and heat up.Add tomatoes, fry till tomatoes turn soft and mushy. Add chili pow,salt and masala powder.Add boiled veggies, mash well. Pour water just enough to bring to a consistency.
-                        <p>
-                </div>
+                
+				
+				<!--chat Recipe4:Chana-->
+				<div id="chhana">
+					<h3 class="head_content">
+					Channa Chat RECIPE, HOW TO MAKE Channa Chat STEP BY STEP
+					</h3>
+					<p>
+						<strong>Channa Chat Recipe:</strong>
+					</p>
+					<h4>
+						PREP TIME: 5min
+					</h4>
+					<h4>
+						COOK TIME:
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">50 gm chickpeas</li>
+						<li class="ingredient">50 gm dark brown peas</li>
+						<li class="ingredient">1/2 tomato, chopped</li>
+						<li class="ingredient">1/2 potato, boiled & chopped</li>
+						<li class="ingredient">50 gm green peas, boiled</li>
+						<li class="ingredient">Salt to taste</li>
+						<li class="ingredient">1 onion, chopped</li>
+						<li class="ingredient">2 Tbsp red chilli powder</li>
+						<li class="ingredient">1 green chilli</li>
+						<li class="ingredient">1 tsp chaat masala</li>
+						<li class="ingredient">2 garlic cloves, fried</li>
+						<li class="ingredient">Few slices of chicken (optional)</li>      
+							 
+						<li class="ingredient">1 tsp mint chutney</li>
+						<li class="ingredient">1/2 cup pomegranate</li>
+						<li class="ingredient">2 tsp sesame</li>
+						<li class="ingredient">1 lime for lemon juice</li>
+						<li class="ingredient">2 tsp tamarind extract</li>
+						<li class="ingredient">1 spring onion, chopped</li>
+					</ul>
+					<h4>
+						Step to Make Channa Chat:
+					</h4>
+					<p>
+						1.Take a large bowl, add chickpeas, dark brown peas.
+						2.Finely chop some tomatoes, onions, boiled potatoes and add it in a bowl. 
+						3.Add some green chillies. Then add boiled peas to the mixture. 
+						4.Add salt for taste, red chilli powder and chaat masala.
+						5.Add garlic cloves, pomegranates, sesame seeds, lemon juice, mint chutney and tamarind extract. 
+						6.Mix the mixture well and serve chilled. 
+
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu6">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--Chinese Recipe4:Vegetable Manchow Soup-->
+				<div id="aloo">
+					<h3 class="head_content">
+					Dilli ki fried aloo Chat RECIPE, HOW TO MAKE Dilli ki fried aloo Chat STEP BY STEP
+					</h3>
+					<p>
+						<strong>Dilli ki fried aloo Chat Recipe:</strong>
+					</p>
+					<h4>
+						PREP TIME: 15min
+					</h4>
+					<h4>
+						COOK TIME: 25min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">2 medium potatoes (boiled, peeled and cubed)</li>
+						<li class="ingredient">1 onion (chopped)</li>
+						<li class="ingredient">1 green chilly</li>
+						<li class="ingredient">Handful of fresh coriander leaves</li>
+						<li class="ingredient">4 Tbsp fresh tamarind chutney</li>
+						<li class="ingredient">2 Tbsp hot mint chutney</li>
+						<li class="ingredient">1 lime</li>
+						<li class="ingredient">1 spring onion</li>
+						<li class="ingredient">A pinch of chaat masala</li>
+						<li class="ingredient">Salt to taste</li>   
+					</ul>
+					<h4>
+						Step to Make Dilli ki fried aloo Chat:
+					</h4>
+					<p>
+						1.Deep fry the boiled potatoes until golden and crisp, drain excess oil on absorbent kitchen paper and put them into a bowl.
+						2.Add the chopped onion, green chilly and coriander leaves. Then add the tamarind and mint chutney.
+						3.Squeeze in the lime juice, add the chaat masala, spring onion and season with salt.
+						4.Mix everything together nicely to combine.
+						5.Serve hot or warm in small bowls.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu6">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<!--chat Recipe4:Vegetable Manchow Soup-->
+				<div id="palak">
+					<h3 class="head_content">
+					 Palak Chat RECIPE, HOW TO MAKE Palak Chat STEP BY STEP
+					</h3>
+					<p>
+						<strong>Palak Chat Recipe:</strong>
+					</p>
+					<h4>
+						PREP TIME: 20min
+					</h4>
+					<h4>
+						COOK TIME: 20min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">1 kg spinach</li>
+						<li class="ingredient">5 gm salt</li>
+						<li class="ingredient">10 gm degi mirch powder</li>
+						<li class="ingredient">5 gm pounded coriander seeds</li>
+						<li class="ingredient">5 gm chaat masala</li>
+						<li class="ingredient">5 gm bishop seeds</li>
+						<li class="ingredient">2 gm black salt</li>
+						<li class="ingredient">150 gm gram flour</li>
+						<li class="ingredient">100 gm corn flour </li>
+						<li class="ingredient">5 gm turmeric powder</li>
+						<li class="ingredient">3 gm black chaat masala</li>
+						<li class="ingredient">75 ml aamchoor chutney</li>
+						<li class="ingredient">10 gm coriander powder</li>
+						<li class="ingredient">1 ltr oil</li>
+
+					</ul>
+					<h4>
+						Step to Make Palak Chat:
+					</h4>
+					<p>
+						1.Remove stalks and wash the spinach leaves 2-3 times. 
+						2.Dry the leaves and roughly cut the leaves leaving 3-4 big ones for plating.
+						3.Sprinkle salt on the leaves and leave for 10-15 minutes.
+						4.Squeeze out salt water from the leaves and roll in some corn flour to make them dry. 
+						5.Mix chopped spinach with besan, cornflour, ajwin, salt, crushed coriander seeds, degi chilly powder, black salt, coriander powder and make a thick batter.
+						6.Now make small marble sized balls with the thick batter and fry them till 70% done.
+						7.Take them out from the oil and let it rest and then fry again to make them crisp.
+						8.Dip the bigger leaves individually into thin gram flour batter and fry them crisp.
+						9.Take out the balls sprinkle some chaat masala and then toss it with amchoor chutney and plate beautifully.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu6">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<div id="papadi">
+					<h3 class="head_content">
+					Papadi Chat RECIPE, HOW TO MAKE Papadi Chat STEP BY STEP
+					</h3>
+					<p>
+						<strong>Papadi Chat</strong>
+					</p>
+					<h4>
+						PREP TIME:
+					</h4>
+					<h4>
+						COOK TIME:
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient"><h5>For the paapri:</h5></li>
+						<li class="ingredient">200 gm maida</li>
+						<li class="ingredient">40 gm oil</li>
+						<li class="ingredient">Salt, to taste</li>
+						<li class="ingredient">1 Tbsp ajwain</li>
+						<li class="ingredient">Oil, for deep frying</li>
+
+						<li class="ingredient"><h5>For the khatti chutney:</h5></li>
+						<li class="ingredient">1 cup coriander leaves</li>
+						<li class="ingredient">1/4 cup pudina leaves</li>
+						<li class="ingredient">1 green chilli</li>
+						<li class="ingredient">20 gm ginger</li>
+						<li class="ingredient">1/2 tsp black rock salt</li>
+						<li class="ingredient">Salt, to taste</li>
+						<li class="ingredient">1/2 tsp garam masala (With black cardamom, mace, nutmeg, zeera, laung)</li>
+						<li class="ingredient">Juice of 1 lemon</li>
+
+						<li class="ingredient"><h5>For the meethi chutney:</h5></li>
+						<li class="ingredient">200 gm tamarind pulp soaked in 1 1/2 cup water</li>
+						<li class="ingredient">800 gm sugar</li>
+						<li class="ingredient">3 tsp kachri powder</li>
+						<li class="ingredient">1/2 tsp saunth powder</li>
+						<li class="ingredient">1 tsp degi mirch</li>
+						<li class="ingredient">Salt, to taste</li>
+						<li class="ingredient">1/2 tsp black rock salt</li>
+						<li class="ingredient">1/2 tsp garam masala (With black cardamom, mace, nutmeg, zeera, laung)</li>
+
+						<li class="ingredient"><h5>For the dahi:</h5></li>
+						<li class="ingredient">2 cups yogurt</li>
+						<li class="ingredient">2 Tbsp powdered sugar</li>
+
+						<li class="ingredient"><h5>For the chaat masala:</h5></li>
+						<li class="ingredient">2 tsp peeli mirch</li>
+						<li class="ingredient">1 tsp kali mirch</li>
+						<li class="ingredient">2 tsp zeera powder</li>
+						<li class="ingredient">2 tsp garam masala</li>
+
+						<li class="ingredient"><h5>For garnishing:</h5></li>
+						<li class="ingredient">Pomegranate seeds</li>
+						<li class="ingredient">Sev</li>
+
+					</ul>
+					<h4>
+						Step to Make Papadi Chat:
+					</h4>
+					<p>
+						<h5>1.For the paapri:</h5>
+						2.In a bowl mix maida, salt and ajwain.
+						3.Add the oil. Knead the flour with the oil.
+						4.Make small balls out of the dough. Roll them like a chapati. The size should be about 4-5 cm in diameter.
+						5.Deep fry these paapris till golden brown on low heat.
+						6.
+						<h5>For the meethi chutney:</h5>
+						7.Soak the tamarind pulp in water for 25-30 minutes. Squeeze it with your hand to extract all the pulp. Strain and thrown away the residue in the strainer.
+						8.Add the tamarind water in a saucepan and add sugar. Cook on low heat till the sugar dissolves. Let it cool.
+						9.Once it cools down add kachri powder, saunth powder, degi mirch, salt, black salt and garam masala.
+						10.Your meethi chutney is ready.
+						11.
+						<h5>For the dahi:</h5>
+						12.Whisk yogurt with some powdered sugar. Keep it in the fridge to cool.
+						13.
+						<h5>For the chaat masala:</h5>
+						14.Mix all the ingredients together.
+						15.
+						<h5>Plating up:</h5>
+						16.In a plate place bhallas. Break them a little from the middle. 
+						17.Add sweetened curd, khatti chutney, meethi chutney.
+						18.Garnish with pomegrante and sev.
+						19.Sprinkle some chaat masala.
+						20.Serve.
+
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu6">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
             </div>
         </div>
-        
-    </div>
+		<div id="sweet">
+            <h2 class="head_text head_content">
+              Sweets(Mithai)
+            </h2>
+					<section class="container">
+						<section class="container">
+							<h5><div id="menu7">Menu</div><h5>
+						</section>
+				<div class="wrap_content">
+					<div class="tile">
+					
+							<a href="regional_food.html#jamun"><img src="images\gulab.jamun.jpg" width="220" height="140"></a>
+								<div class="center">
+									<h5>Gulab jamun</h5>
+								</div>
+					</div>
+					<div class="tile">
+					
+							<a href="regional_food.html#phirani"><img src="images\phirni-625_625x350_41459346310.jpg" width="220" height="140"></a>
+								<div class="center">
+									<h5>Phirani</h5>
+								</div>
+					</div>
+					<div class="tile">
+							<a href="regional_food.html#halawa"><img src="images\gajar.ka.halwa.jpg" width="220" height="140"></a>
+								<div class="center">
+									<h5>Gajar halwa</h5>
+								</div>
+					</div>
+					<div class="tile">
+							<a href="regional_food.html#Sandesh"><img src="images\sandesh-new_600.jpg" width="220" height="140"></a>
+								<div class="center">
+									<h5>Sandesh</h5>
+								</div>
+					</div>
+					<div class="tile">
+								<a href="regional_food.html#Modak"><img src="images\modak.jpg" width="220" height="140"></a>
+								<div class="center">
+									<h5>Modak</h5>
+								</div>
+					
+					</div>
+				</div>	
+				</section>
+			<div class "recipe_menu">
+                <!--sweet Recipe1 : Gulabjamun-->
+                <div id="jamun">
+                    <h3 class="head_content">
+                      Gulab Jamun RECIPE, HOW TO MAKE Gulab Jamun STEP BY STEP
+                    </h3>
+                    <p>
+                        <strong>Gulab Jamun Recipe:</strong> The old favorite made with khoya, flour and dipped in sugar syrup infused with saffron.
+                    </p>
+                    <h4>
+                      PREP TIME: 10min
+                    </h4>
+                    <h4>
+                      COOK TIME: 30min
+                    </h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">300 gms khoya</li>
+						<li class="ingredient">3 Tbsp flour</li>
+						<li class="ingredient">3 Tbsp sugar</li>
+						<li class="ingredient">1/2 liter water</li>
+						<li class="ingredient">Saffron, a pinch</li>
+						<li class="ingredient">200 gms refined oil</li>
+					</ul>
+					<h4>
+						Step to make Gulab Jamun:
+					</h4>
+						<p>
+							1.In a bowl, add khoya and flour mix them together.
+							2.Make a round ball shape gulab jamun out of it.
+							3.Make sugar syrup with 3 table spoon of sugar and 1/2 liter water. Add little saffron to it.
+							4.Deep fry the gulab jamun in pan with oil.
+							5.Add the fried gulab jamun into the sugar syrup.
+							6.Serve hot.
+						<p>
+						<button class=" button2"><a href="regional_food.html#menu7">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<div id="phirani">
+					<h3 class="head_content">
+					Pistachio Phirni RECIPE, HOW TO MAKE Pistachio Phirni STEP BY STEP
+					</h3>
+					<p>
+						<strong>Pistachio Phirni Recipe:</strong>Pista and elaichi flavored phirni great for a festive occasion. served in 'mitti ke kasore' or mud pots.
+
+					</p>
+					<h4>
+						PREP TIME: 10min
+					</h4>
+					<h4>
+						COOK TIME: 30min+cooling time
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">250 ml milk</li> 
+						<li class="ingredient">25 gm rice flour</li>
+						<li class="ingredient">50 gm pistachio</li>
+						<li class="ingredient">75 gm sugar</li>
+						<li class="ingredient">1 tsp cardamom powder</li>
+
+					</ul>
+					<h4>
+						Step to Make Pistachio Phirni:
+					</h4>
+					<p>
+						1.Boil the milk and sugar.
+						2.Add rice flour to it.
+						3.Cook on slow fire till it becomes thick runny batter.
+						4.Add cardamom powder and roasted pistachio into it.
+						5.Cook a bit till it becomes the smooth.
+						6.Fill in glasses or mud pots.
+						7.Let it cool for about an hour.
+						8.Serve cold.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu7">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<div id="halawa">
+					<h3 class="head_content">
+					Gajar Halwa RECIPE, HOW TO MAKE Gajar Halwa STEP BY STEP
+					</h3>
+					<p>
+						<strong>Gajar Halwa</strong>
+					</p>
+					<h4>
+						PREP TIME: 20min
+					</h4>
+					<h4>
+						COOK TIME: 30min
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">1 1/2 kg carrots</li>
+						<li class="ingredient">10 green cardamom, whole</li>
+						<li class="ingredient">2 cinnamon sticks</li>
+						<li class="ingredient">500 g sugar</li>
+						<li class="ingredient">250 g desi ghee(clarified butter)</li>
+						<li class="ingredient">400 g condensed milk (option: mawa / khoya)</li>
+						<li class="ingredient">4 pieces gold vark</li>
+						<li class="ingredient">50 g almonds</li>
+						<li class="ingredient">50 g pistachios</li>
+
+					</ul>
+					<h4>
+						Step to Make Gajar Halwa:
+					</h4>
+					<p>
+						1.Grate the carrot and put it in a pot on heat, stir fry continuously till all the water is evaporated.
+						2.Then put some green cardamom, cinnamon and sugar and cook for a while. Then add desi ghee and cook 5-7 minutes further.
+						3.At last, finish with condensed milk (or mawa/khoya).
+						4.Place gold vark on top for decoration.
+						5.Present on a plate and garnish with pistachios and almonds.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu7">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<div id="Sandesh">
+					<h3 class="head_content">
+					Sandesh RECIPE, HOW TO MAKE Sandesh STEP BY STEP
+					</h3>
+					<p>
+						<strong>Sandesh</strong>
+					</p>
+					<h4>
+						PREP TIME: 10min
+					</h4>
+					<h4>
+						COOK TIME: 20min+ chillingtimr
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">150 gm paneer (cottage cheese)</li>
+						<li class="ingredient">1/2 cup khoya - grated </li>
+						<li class="ingredient">4 green cardamom - crushed </li>
+						<li class="ingredient">Large pinch of kesar (saffron)</li>
+						<li class="ingredient">6 Tbsp sugar / gur</li>
+						<li class="ingredient">6 almonds - shredded thin lengthwise<li>
+					</ul>
+					<h4>
+						Step to Make Sandesh:
+					</h4>
+					<p>
+						1.Blend the paneer, khoya and sugar/gur together till smooth. You can do this in a blender or use the back of a katori to mash them together. 
+						2.Mix in the elaichi and set in a layer about 1/2" thick. 
+						3.Refrigerate till set and cut into squares or diamonds and serve.
+
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu7">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+				<div id="Modak">
+					<h3 class="head_content">
+					Modak RECIPE, HOW TO MAKE Modak STEP BY STEP
+					</h3>
+					<p>
+						<strong>Modak</strong>
+					</p>
+					<h4>
+						PREP TIME:
+					</h4>
+					<h4>
+						COOK TIME:
+					</h4>
+					<h4>
+						Ingredients:
+					</h4>
+					<ul>
+						<li class="ingredient">For the filling:</li>
+						<li class="ingredient">1 cup grated coconut</li>
+						<li class="ingredient">1 cup grated jaggery</li>
+						<li class="ingredient">A pinch of nutmeg</li>
+						<li class="ingredient">A pinch of saffron</li>
+
+						<li class="ingredient">For the shell:</li>
+						<li class="ingredient">1 cup of water</li>
+						<li class="ingredient">2 tsp ghee</li>
+						<li class="ingredient">1 cup of rice flour</li>
+					</ul>
+					<h4>
+						Step to Make Modak:
+					</h4>
+					<p>
+						1.For the fillling:
+						2.Heat a pan, add the grated coconut and jaggery.
+						3.Stir for about five minutes. Add the nutmeg and saffron, mix well.
+						4.Cook for another five minutes and keep aside.
+
+						For the modak:
+
+						6.In a deep dish, boil water with ghee. Add the salt and flour. Mix well.
+						7.Cover the dish and cook till its half done.
+						Spread some ghee on the base of a steel bowl and while the dough is still hot, knead it well.
+						9.Now take a little dough, roll it into a ball, flatten it well, shape the edges into a flower pattern.
+						10.Put a spoonful of the filling onto the dough and seal it.
+						11.Put the dumplings in a muslin cloth and steam them for 10- 15 minutes. Serve.
+					<p>
+						<button class=" button2"><a href="regional_food.html#menu7">Menu</a></button>
+						<button class="button2"><a href="regional_food.html#top">Cuisine Collections</a></button><hr>
+				</div>
+			</div>
+		</div>
+	</div>	
 </body>
 
 </html>
